@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "author": "li_lei_123 <1184841584@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@umijs/plugins": "^4.4.11",
+    "@unocss/cli": "^66.3.2",
+    "umi": "^4.4.11",
+    "unocss": "^66.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
