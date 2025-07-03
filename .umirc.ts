@@ -1,9 +1,7 @@
 import { defineConfig } from "umi";
-import unocssPlugin from '@umijs/plugins/dist/unocss'
 export default defineConfig({
   routes: [
     { path: "/", component: "index" },
-    { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
   plugins: [
@@ -11,6 +9,6 @@ export default defineConfig({
   ],
   unocss: {
     // 检测 className 的文件范围，若项目不包含 src 目录，可使用 `pages/**/*.tsx`
-    watch: ['src/**/*.tsx']
+    watch: ['src/**/*.jsx']
   },
 });

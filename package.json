@@ -11,6 +11,8 @@
   "dependencies": {
     "@umijs/plugins": "^4.4.11",
     "@unocss/cli": "^66.3.2",
+    "dayjs": "^1.11.13",
+    "lodash": "^4.17.21",
     "umi": "^4.4.11",
     "unocss": "^66.3.2"
   },
